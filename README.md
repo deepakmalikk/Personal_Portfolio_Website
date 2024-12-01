@@ -21,6 +21,6 @@ Welcome to the repository for Deepak Malik's portfolio website! This website sho
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/deepakmalikk/portfolio-website.git
-   cd portfolio-website
+   git clone https://github.com/deepakmalikk/deepak_portfoliogit
+   cd deepak_portfolio
 
