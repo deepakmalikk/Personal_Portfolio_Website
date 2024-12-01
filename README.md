@@ -1,6 +1,6 @@
 # Deepak Malik's Portfolio Website
 
-Welcome to the repository for Deepak Malik's portfolio website! This website showcases Deepak's skills, projects, and experiences as an AI Engineer. The site is designed to be modern, vibrant, and user-friendly, with a focus on highlighting Deepak's expertise in Generative AI, automation testing, and data structures.
+Welcome to the repository for Deepak Malik's portfolio website! This website showcases Deepak's skills, projects, and experiences as an AI Engineer.
 
 ## Features
 
@@ -23,3 +23,4 @@ Welcome to the repository for Deepak Malik's portfolio website! This website sho
    ```sh
    git clone https://github.com/deepakmalikk/portfolio-website.git
    cd portfolio-website
+
