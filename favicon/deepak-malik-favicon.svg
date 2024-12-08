@@ -1,0 +1,24 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="16" cy="16" r="15" fill="#2a4d4c"/>
+  
+  <!-- Neural Network Nodes -->
+  <circle cx="8" cy="8" r="2" fill="#5f8c8a"/>
+  <circle cx="8" cy="16" r="2" fill="#5f8c8a"/>
+  <circle cx="8" cy="24" r="2" fill="#5f8c8a"/>
+  <circle cx="24" cy="8" r="2" fill="#5f8c8a"/>
+  <circle cx="24" cy="16" r="2" fill="#5f8c8a"/>
+  <circle cx="24" cy="24" r="2" fill="#5f8c8a"/>
+  
+  <!-- Neural Network Connections -->
+  <path d="M8 8 L24 8 M8 8 L24 16 M8 8 L24 24" stroke="#5f8c8a" stroke-width="1" opacity="0.6"/>
+  <path d="M8 16 L24 8 M8 16 L24 16 M8 16 L24 24" stroke="#5f8c8a" stroke-width="1" opacity="0.6"/>
+  <path d="M8 24 L24 8 M8 24 L24 16 M8 24 L24 24" stroke="#5f8c8a" stroke-width="1" opacity="0.6"/>
+  
+  <!-- DM Letters -->
+  <text x="16" y="19" font-family="Arial, sans-serif" font-size="12" font-weight="bold" 
+        fill="#9bab39" text-anchor="middle">DM</text>
+  
+  <!-- Outer Ring -->
+  <circle cx="16" cy="16" r="15" fill="none" stroke="#5f8c8a" stroke-width="1"/>
+</svg>
