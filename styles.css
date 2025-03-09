@@ -156,131 +156,57 @@ nav a:hover {
     /* Muted teal on hover */
 }
 
-/* Projects Section */
-#projects {
-    background: linear-gradient(90deg, #2d3748 0%, #4a5568 100%);
-    padding: 5rem 0;
-}
-
-/* Section Title */
-.section-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-    color: #f7fafc;
-}
 
 /* Projects Section */
 #projects {
-    background: linear-gradient(90deg, #2d3748 0%, #4a5568 100%);
-    padding: 5rem 0;
+    background: linear-gradient(90deg, #1a202c 0%, #2d3748 100%);
 }
 
-/* Section Title */
-.section-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-    color: #f7fafc;
-}
-
-/* Project Card Styles */
 .project-card {
-    /* ... other styles ... */
+    min-height: 300px;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    /* Important for consistent height */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-
-.project-card h3 {
-    font-size: 1.75rem;
-    font-weight: bold;
-    color: #f7fafc;
-    margin-bottom: 0.75rem;
-}
-
-/* Target the paragraph specifically within the project card */
-.project-card p {
-    font-size: 1rem;
-    color: #e2e8f0;
-    margin-bottom: 1rem;
-    /* Can remove if not needed */
-    flex-grow: 1;
-    /* This will allow the paragraph to expand */
-}
-
-.tech-stack {
-    margin-bottom: 0.5rem;
-}
-
-.stack-title {
-    font-size: 1.125rem;
-    font-weight: bold;
-    color: #f7fafc;
-    margin-bottom: 0.5rem;
-}
-
-.tech-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
+/* Technology badges */
 .tech-item {
-    background-color: #4a5568;
-    color: #f7fafc;
-    font-size: 0.875rem;
+    background: rgba(74, 85, 104, 0.5);
     padding: 0.25rem 0.75rem;
-    border-radius: 0.375rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    color: #cbd5e0;
+    border: 1px solid #4a5568;
     white-space: nowrap;
 }
 
-.github-link {
-    display: inline-flex;
-    align-items: center;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #f7fafc;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    margin-top: auto;
-}
-
-.github-link:hover {
+/* Bullet points styling */
+.project-card ul {
+    list-style: disc;
     color: #63b3ed;
 }
 
-.github-icon {
-    width: 1.25rem;
-    height: 1.25rem;
-    fill: currentColor;
-    margin-right: 0.5rem;
+.project-card li {
+    color: #cbd5e0;
+    margin-bottom: 0.25rem;
 }
 
-/* Responsive Layout */
-@media (min-width: 640px) {
+/* Link styling */
+.project-card a {
+    transition: all 0.2s ease;
+}
+
+.project-card a:hover {
+    transform: translateY(-1px);
+    opacity: 0.9;
+}
+
+/* Responsive grid */
+@media (min-width: 768px) {
     #projects .grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
-
-@media (min-width: 1024px) {
-    #projects .grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
-    }
-}
-
 
 /* Contact Section */
 #contact {
