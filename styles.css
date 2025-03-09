@@ -163,32 +163,28 @@ nav a:hover {
 }
 
 .project-card {
-    min-height: 300px;
+    min-height: 260px;
     display: flex;
     flex-direction: column;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Technology badges */
-.tech-item {
-    background: rgba(74, 85, 104, 0.5);
-    padding: 0.25rem 0.75rem;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    color: #cbd5e0;
-    border: 1px solid #4a5568;
-    white-space: nowrap;
+.project-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
 }
 
 /* Bullet points styling */
 .project-card ul {
     list-style: disc;
     color: #63b3ed;
+    margin-bottom: 1rem;
 }
 
 .project-card li {
     color: #cbd5e0;
-    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
 }
 
 /* Link styling */
